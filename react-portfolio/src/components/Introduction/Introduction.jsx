@@ -13,7 +13,7 @@ export const Introduction = () => {
                     I'm Elias
                 </h1>
                 <h2 className={styles.description}>
-                    And I'm a software developer
+                    And I'm a Game Developer
                 </h2>
                 <p className={styles.location}>
                     <MapPin className={styles.mapPin} />

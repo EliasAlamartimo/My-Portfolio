@@ -1,8 +1,9 @@
 import { useEffect, useRef } from "react";
 import styles from './App.module.css'
 import { Introduction } from "./components/Introduction/Introduction";
-import { Experience } from "./components/Experience/Experience";
 import { About } from "./components/About/About";
+import { Experience } from "./components/Experience/Experience";
+import { Projects } from "./components/Projects/Projects";
 
 function App() {
   // Components
@@ -11,6 +12,7 @@ function App() {
       <Introduction />
       <About />
       <Experience />
+      <Projects />
     </div>
   );
 };

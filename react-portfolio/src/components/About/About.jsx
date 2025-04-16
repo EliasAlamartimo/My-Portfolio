@@ -11,7 +11,7 @@ export const About = () => {
                     About
                 </h2>
                 <p className={styles.description}>
-                    My name is Elias and I'm a Software/Game Developer from Finland. I am currently a third-year student in the Vocational College of Oulu OSAO.
+                    My name is Elias and I'm a Game Developer from Finland. I'm currently a third-year student in the Vocational College of Oulu OSAO.
                 </p>
             </div>
         </section>

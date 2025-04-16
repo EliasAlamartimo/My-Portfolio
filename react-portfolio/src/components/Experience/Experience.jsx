@@ -14,9 +14,9 @@ export const Experience = () => {
                   <li className={styles.experienceItem}>
                     <div className={styles.date}>10.2024 - 1.2025</div>
                     <div className={styles.details}>
-                      <h3>Software Developer Intern</h3>
+                      <h3>Frontend Developer Intern</h3>
                       <p>Psyche's Royale Gaming ry</p>
-                      <p>I worked on a voting system and user interface for a mobile game.</p>
+                      <p2>I worked on a voting system and user interface for a mobile game using Unity.</p2>
                     </div>
                   </li>
                 </ul>
