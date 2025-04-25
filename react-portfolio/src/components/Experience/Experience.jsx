@@ -16,7 +16,7 @@ export const Experience = () => {
                     <div className={styles.details}>
                       <h3>Frontend Developer Intern</h3>
                       <p>Psyche's Royale Gaming ry</p>
-                      <p2>I worked on a voting system and user interface for a mobile game using Unity.</p2>
+                      <p2>I worked on a voting system and user interface for a multiplayer mobile game using Unity.</p2>
                     </div>
                   </li>
                 </ul>

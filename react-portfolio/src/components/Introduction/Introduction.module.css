@@ -6,8 +6,8 @@
     background-color: var(--color-dark);
     border-radius: 15px;
     border-color: var(--color-bg);
-    padding: 25px;
-    margin-top: 75px;
+    padding: 40px;
+    margin-top: 60px;
     z-index: 1;
     width: 800px;
     margin-left: auto;
@@ -16,7 +16,7 @@
 }
 
 .content {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .title {
@@ -43,7 +43,6 @@
 }
 
 .image {
-    margin: 25px;
     width: auto;
     height: 200px;
     border-radius: 15px;
