@@ -13,6 +13,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    border-top: 1px solid var(--color-bg2);
 }
 
 .content {
@@ -39,6 +40,20 @@
     width: 20px;
     height: 20px;
     color: #e63946;
+    margin-right: 8px;
+}
+
+.mail {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    color: var(--color-secondary);
+}
+
+.mailIcon {
+    width: 20px;
+    height: 20px;
+    color: var(--color-primary);
     margin-right: 8px;
 }
 

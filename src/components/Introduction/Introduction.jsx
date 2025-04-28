@@ -1,5 +1,5 @@
 import React from "react";
-import { MapPin } from "lucide-react";
+import { MapPin , Mail } from "lucide-react";
 
 import styles from "./Introduction.module.css";
 import { getImageUrl } from "../../utils";
@@ -18,6 +18,10 @@ export const Introduction = () => {
                 <p className={styles.location}>
                     <MapPin className={styles.mapPin} />
                     Oulu, Finland
+                </p>
+                <p className={styles.mail}>
+                    <Mail className={styles.mailIcon} />
+                    ela.samuel.06@gmail.com
                 </p>
             </div>
         </section>

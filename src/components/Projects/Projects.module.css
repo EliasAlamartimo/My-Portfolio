@@ -14,6 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    border-top: 1px solid var(--color-bg2);
 }
 
 .title {
@@ -25,6 +26,11 @@
     list-style: none;
     padding: 0;
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 }
   
 .projectItem {
@@ -45,4 +51,100 @@
         margin-right: 10%;
         width: auto;
     }
+}
+
+.projectCard {
+    background-color: var(--color-dark2);
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    width: 340px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid var(--color-bg2);
+}
+
+.projectCard:hover {
+    transform: scale(1.03);
+}
+
+.projectCard h1 {
+    color: var(--color-text)
+}
+
+.projectCard p {
+    color: var(--color-primary)
+}
+
+.projectCard img {
+    height: 180px;
+    width: 240px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.popupContent {
+    background-color: var(--color-bg);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.popupContent img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.popupContent h2 {
+    color: var(--color-text)
+}
+
+.popupContent p {
+    color: var(--color-primary)
+}
+
+.popupVideo {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.closeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--color-dark);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background-color: var(--color-bg2);
 }
